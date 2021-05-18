@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".maravillasFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Machu Pichu"
+        android:layout_marginBottom="11dp"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/btnMachu"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/machu"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Muralla China"
+        android:layout_marginBottom="7dp"
+        android:textSize="40dp"
+        android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/btnChina"
+            android:layout_width="fill_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/china"
+            android:layout_marginBottom="15dp"/>
+
+          <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Chichen Itzá"
+            android:layout_marginBottom="7dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/btnItza"
+            android:layout_width="fill_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/chichen"
+            android:layout_marginBottom="15dp"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Cristo Redentor"
+            android:layout_marginBottom="7dp"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+    <ImageButton
+        android:id="@+id/btnCristo"
+        android:layout_width="fill_parent"
+        android:layout_height="245dp"
+        android:src="@drawable/cristo" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

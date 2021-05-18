@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".calculadoraFragment">
+
+    <EditText
+        android:id="@+id/etNro1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_marginLeft="130dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/etNro2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:layout_marginLeft="130dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="298dp"
+        android:backgroundTint="@color/black"
+        android:alpha="0.7"
+        android:text="Sumar"/>
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="298dp"
+        android:backgroundTint="@color/black"
+        android:alpha="0.7"
+        android:text="Restar"/>
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="375dp"
+        android:backgroundTint="@color/black"
+        android:alpha="0.7"
+        android:text="Multiplicar"/>
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="375dp"
+        android:layout_marginStart="250dp"
+        android:backgroundTint="@color/black"
+        android:alpha="0.7"
+        android:text="Dividir"/>
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="645dp"
+        android:layout_marginEnd="80dp"
+        android:alpha="0.7"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Salir" />
+
+    <EditText
+        android:id="@+id/etResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="130dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Cerveceda"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+</FrameLayout>

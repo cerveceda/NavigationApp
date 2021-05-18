@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".redesFragment">
+
+    <ImageButton
+        android:id="@+id/btnFace"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="#81d8d0"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/facebook" />
+
+    <ImageButton
+        android:id="@+id/btnInsta"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="#2a6478"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/instagram" />
+
+    <ImageButton
+        android:id="@+id/btnYoutube"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:backgroundTint="#cee6e6"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/youtube" />
+</FrameLayout>

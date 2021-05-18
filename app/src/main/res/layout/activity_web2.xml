@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".webActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etBusqueda"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="121dp"
+                android:layout_marginTop="50dp"
+                android:hint="Ingresa el sitio web"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+            <Button
+                android:id="@+id/btnBuscar"
+                android:layout_width="145dp"
+                android:layout_marginLeft="190dp"
+                android:onClick="Ir"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:backgroundTint="@color/black"
+                android:text="Ir" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

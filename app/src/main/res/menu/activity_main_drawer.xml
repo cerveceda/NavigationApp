@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/calculadoraFragment"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="Calculadora" />
+        <item
+            android:id="@+id/maravillasFragment"
+            android:icon="@drawable/ic_baseline_image_24"
+            android:title="Maravillas del mundo" />
+        <item
+            android:id="@+id/redesFragment"
+            android:icon="@drawable/ic_baseline_reduce_capacity_24"
+            android:title="Redes sociales" />
+        <item
+            android:id="@+id/soundFragment"
+            android:icon="@drawable/ic_baseline_queue_music_24"
+            android:title="Sonidos" />
+        <item
+            android:id="@+id/webFragment"
+            android:icon="@drawable/ic_baseline_web_24"
+            android:title="Web" />
+        <item
+            android:id="@+id/plusFragment"
+            android:icon="@drawable/ic_baseline_1k_plus_24"
+            android:title="Plus" />
+    </group>
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/maravillasFragment">
+
+    <fragment
+        android:id="@+id/redesFragment"
+        android:name="com.example.navigationapp.redesFragment"
+        android:label="fragment_redes"
+        tools:layout="@layout/fragment_redes" />
+    <fragment
+        android:id="@+id/maravillasFragment"
+        android:name="com.example.navigationapp.maravillasFragment"
+        android:label="fragment_maravillas"
+        tools:layout="@layout/fragment_maravillas" />
+    <fragment
+        android:id="@+id/calculadoraFragment"
+        android:name="com.example.navigationapp.calculadoraFragment"
+        android:label="fragment_calculadora"
+        tools:layout="@layout/fragment_calculadora" />
+    <fragment
+        android:id="@+id/webFragment"
+        android:name="com.example.navigationapp.webFragment"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/soundFragment"
+        android:name="com.example.navigationapp.soundFragment"
+        android:label="fragment_sound"
+        tools:layout="@layout/fragment_sound" />
+    <activity
+        android:id="@+id/activityWeb"
+        android:name="com.example.navigationapp.activityWeb"
+        android:label="activity_web"
+        tools:layout="@layout/activity_web" />
+    <activity
+        android:id="@+id/webActivity"
+        android:name="com.example.navigationapp.webActivity"
+        android:label="activity_web2"
+        tools:layout="@layout/activity_web2" />
+    <activity
+        android:id="@+id/sonidos"
+        android:name="com.example.navigationapp.Sonidos"
+        android:label="activity_sonidos"
+        tools:layout="@layout/activity_sonidos" />
+    <fragment
+        android:id="@+id/machupichu"
+        android:name="com.example.navigationapp.Machupichu"
+        android:label="fragment_machupichu"
+        tools:layout="@layout/fragment_machupichu" />
+    <fragment
+        android:id="@+id/plusFragment"
+        android:name="com.example.navigationapp.plusFragment"
+        android:label="fragment_plus"
+        tools:layout="@layout/fragment_plus" />
+    <activity
+        android:id="@+id/PLus"
+        android:name="com.example.navigationapp.PLus"
+        android:label="activity_p_lus"
+        tools:layout="@layout/activity_p_lus" />
+</navigation>
